@@ -9,13 +9,17 @@
   <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
   <link rel="manifest" href="/site.webmanifest" />
+
+  <script src="https://kit.fontawesome.com/cd3a55a011.js" crossorigin="anonymous"></script>
+
+
   <title>Portfólio</title>
+
 </head>
 
 <body>
 
   <div class="container">
-
     <div class="hamburguer">
       <div class="line" id="line1"></div>
       <div class="line" id="line2"></div>
@@ -28,7 +32,7 @@
         <img src="imagens/bg.jpg" alt="">
       </div>
       <div class="banner">
-        <h1>Developer System & Drone Pilot & LAW </h1>
+        <h1>Developer System & Drone Pilot & Law </h1>
         <p>Célio Oliveira Carçalto</p>
         <button onclick="window.open('/imagens/bg.jpg', '_blank');">Currículo - PDF</button>
       </div>
@@ -61,18 +65,23 @@
         <div class="conhecimento">
           <div class="conhecimento-header">
             <i class="fab fa-html5"></i>
-            <h3>HTML</h3>
+            <i class="fab fa-css3-alt"></i>
+            <h3>HTML/CSS</h3>
           </div>
           <div class="conhecimento-text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vel obcaecati eaque quos, labore quibusdam
-              incidunt dolores vitae velit voluptates esse omnis enim, dolorem eveniet. Rem ab obcaecati totam ipsum!
+            <p>Tenho conhecimentos intermediários em HTML e CSS e sou capaz de criar páginas Web estáticas usando essas
+              linguagens, estruturando o conteúdo de uma Web usando tags HTML e estilizar a
+              aparência da página usando CSS. Recursos avançados do HTML, como tabelas e formulários, 
+              usando técnicas de layout como o posicionamento
+              flutuante e o gerenciamento de caixa. Além disso, otimizar páginas Web para
+              acessibilidade e compatibilidade com diferentes navegadores.
             </p>
           </div>
         </div>
         <div class="conhecimento">
           <div class="conhecimento-header">
-            <i class="fab fa-css3-alt"></i>
-            <h3>CSS</h3>
+            <i class="fa-solid fa-scale-balanced"></i>
+            <h3>Law</h3>
           </div>
           <div class="conhecimento-text">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore pariatur asperiores incidunt quod, sed
@@ -82,13 +91,15 @@
         </div>
         <div class="conhecimento">
           <div class="conhecimento-header">
-            <i class="fas fa-pencil-alt"></i>
-            <h3>Design</h3>
+            <i class="fab fa-python"></i>
+            <h3>Python</h3>
           </div>
           <div class="conhecimento-text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ex eius voluptatem deleniti alias commodi
-              doloremque aspernatur id adipisci quia ea, distinctio maxime, at nemo. Officiis suscipit excepturi quia
-              aut?</p>
+            <p>Manipulação de dados, consumo de APIs, leitura e escrita de arquivos em diferentes formatos,
+              operações em bancos de dados usando o módulo sqlite3. Além disso,
+              tenho experiência com módulos e pacotes para organizar e reutilizar meu código de
+              maneira eficiente. Adicionalmente, orientação a objetos, limpeza e análise de conjuntos de dados usando
+              bibliotecas como Pandas e NumPy.</p>
           </div>
         </div>
         <div class="conhecimento">
@@ -105,8 +116,8 @@
         </div>
         <div class="conhecimento">
           <div class="conhecimento-header">
-            <i class="fab fa-bootstrap"></i>
-            <h3>Boostrap</h3>
+            <i class="fa-brands fa-phoenix-squadron"></i>
+            <h3>Drone Pilot</h3>
           </div>
           <div class="conhecimento-text">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sequi, quas illo dolor totam voluptas
@@ -120,9 +131,9 @@
             <h3>Git e GitHub</h3>
           </div>
           <div class="conhecimento-text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis distinctio quaerat eaque ratione,
-              molestias incidunt a iusto, unde quos magnam ullam exercitationem velit alias, fuga in explicabo ex
-              laborum!</p>
+            <p>Tenho experiência em usar o Git e o GitHub para gerenciar o código fonte de projetos de software. Sou
+              capaz de realizar operações básicas, como criar e clonar repositórios, adicionar, commitar e enviar
+              alterações para o repositório remoto e criar e mesclar ramificações.</p>
           </div>
         </div>
         <div class="conhecimentos-img-wrapper">
@@ -181,17 +192,17 @@
           <div class="contato-left"></div>
           <div class="contato-right">
             <h1>Contato</h1>
-            <form>
+            <form action="https://formsubmit.co/1d6506a513c74c7f7003099fe21958fc" method="POST">
               <div class="input-group">
-                <input type="text" class="field" id="nome">
+                <input type="text" class="field" id="nome" name="Nome" required>
                 <label for="nome" class="field-label">Nome</label>
               </div>
               <div class="input-group">
-                <input type="text" class="field" id="email">
+                <input type="text" class="field" id="email" name="Email" required>
                 <label for="email" class="field-label">E-mail</label>
               </div>
               <div class="input-group">
-                <textarea class="field" id="mensagem"></textarea>
+                <textarea class="field" id="mensagem" name="Mensagem" required></textarea>
                 <label for="mensagem" class="field-label">Mensagem</label>
               </div>
               <button type="submit" class="btn btn-submit">Enviar</button>
@@ -208,7 +219,7 @@
             de folga, gosto de pilotar drones e capturar imagens incríveis do mundo a partir de ângulos diferentes.
             Neste blog, compartilho as minhas experiências com tecnologia e viagens, e espero poder inspirar outras
             pessoas a seguirem seus interesses e paixões.</p>
-          
+
         </div>
       </section>
 
