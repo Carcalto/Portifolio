@@ -2,6 +2,7 @@
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
 
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +15,7 @@
   --font-secundary: "Josefin Slab", serif;
   --font-action: "Muli", serif;
 }
+
 
 html{
   scroll-behavior: smooth;
@@ -45,8 +47,6 @@ html{
   background-color: #fff;
   box-shadow: 0.1rem 0.1rem 1px #000;
   
-  
-
 }
 
 .line#line1{
@@ -180,9 +180,10 @@ header {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  opacity: 0;
   animation: moveBanner 1s 0.9s forwards;
+  opacity: 0;
 }
+
 
 @keyframes moveBanner {
   0% {
@@ -509,11 +510,19 @@ header {
   font-family: var(--font-secundary);
   text-transform: uppercase;
   transition: all 0.3s;
+  
+}
+
+input:valid + .field-label {
+  top: 0;
+  font-size: 0.7rem;
 }
 
 .field:focus ~ label {
   top: 0;
   font-size: 0.7rem;
+  
+  
 }
 
 .field:focus {
@@ -632,5 +641,11 @@ footer{
   color: #fff;
   border-radius: .3rem;
   box-shadow:  0 0.1rem 0.6rem #00000009;
+  opacity: 0.8;
 }
+
+#link-topo:hover{
+  opacity: 1;
+}
+
 
