@@ -19,6 +19,7 @@
 
 html{
   scroll-behavior: smooth;
+  
 }
 
 .hamburguer{
@@ -110,6 +111,7 @@ html{
 }
 
 header {
+  
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -117,6 +119,7 @@ header {
 }
 
 .img-wrapper {
+  
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -124,6 +127,7 @@ header {
 }
 
 .img-wrapper img {
+  
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -199,7 +203,7 @@ header {
   width: 20rem;
   height: 100vh;
   background-color: #fff;
-  position: fixed;
+  position:fixed;
   top: 0;
   right: -20rem;
   transition: all 1s;
@@ -557,6 +561,7 @@ input:valid + .field-label {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .biografia-wrapper{
@@ -596,6 +601,7 @@ input:valid + .field-label {
 }
 
 footer{
+  
   width: 100%;
   height: 7rem;
   background-color: #17181b;
@@ -648,4 +654,44 @@ footer{
   opacity: 1;
 }
 
+
+
+@media (max-width: 1285px) {
+
+  .conhecimentos-img-wrapper,
+  .conhecimento-text {
+    visibility: hidden;
+  }
+  
+}
+
+
+@media (max-width: 632px) {
+
+  html, body {
+    font-size: 62.5%;
+    height: 100vh;
+    width: 100vw;
+    
+  }
+
+ 
+
+  
+  
+}
+
+@media (max-width: 993px){
+  
+  .footer-content p {
+    display: none;
+  }
+}
+
+
+@media (max-width:366px){
+
+
+  
+}
 
