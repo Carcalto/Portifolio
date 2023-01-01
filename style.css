@@ -522,6 +522,11 @@ input:valid + .field-label {
   font-size: 0.7rem;
 }
 
+textarea:valid + .field-label {
+  top: 0;
+  font-size: 0.7rem;
+}
+
 .field:focus ~ label {
   top: 0;
   font-size: 0.7rem;
@@ -536,7 +541,7 @@ input:valid + .field-label {
 .btn-submit {
   font-size: 1.2rem;
   text-transform: uppercase;
-  width: 80%;
+  width: 50%;
   height: 2.5rem;
   margin-top: 1rem;
   letter-spacing: 0.2rem;
@@ -655,7 +660,6 @@ footer{
 }
 
 
-
 @media (max-width: 1285px) {
 
   .conhecimentos-img-wrapper,
@@ -674,10 +678,6 @@ footer{
     width: 100vw;
     
   }
-
- 
-
-  
   
 }
 
@@ -688,10 +688,4 @@ footer{
   }
 }
 
-
-@media (max-width:366px){
-
-
-  
-}
 
